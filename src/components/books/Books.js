@@ -51,11 +51,11 @@ class Books extends Component {
           <div key={book} className="column is-one-quarter">
             <div className="card">
               <div className="card-image">
-                <figure className="image">
+                <figure className="image mheight">
                   <img src={image}/>
                 </figure>
               </div>
-              <div className="card-content">
+              <div className="card-content mcheight">
                 <div className="card-header-title">
                   <p><a href={url} target="_blank">{title}</a></p>
                 </div>

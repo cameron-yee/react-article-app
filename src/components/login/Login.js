@@ -16,7 +16,7 @@ class Login extends Component {
     return (
       <div className="columns">
         <div className="column is-half is-offset-one-quarter">
-          <div className="card">
+          <div className="card login-pad">
             <div className="card-image">
               <figure className="image header-img">
                 <div className="image-placeholder"></div>

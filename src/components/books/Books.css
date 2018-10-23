@@ -2,11 +2,6 @@
   background-image: url('http://placekitten.com/1600/500');
 }
 
-.app-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -16,6 +11,15 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.mheight {
+  height: 200px;
+  overflow: hidden;
+}
+
+.mcheight {
+  height: 300px;
 }
 
 .title-div {
