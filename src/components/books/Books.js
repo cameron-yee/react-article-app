@@ -59,7 +59,7 @@ class Books extends Component {
                 <div className="card-header-title">
                   <p><a href={url} target="_blank">{title}</a></p>
                 </div>
-                <div className="content">{}</div>
+                <div className="content">{abstract}</div>
               </div>
             </div>
           </div>
