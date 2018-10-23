@@ -1,8 +1,8 @@
-.App {
-  text-align: center;
+.header-img {
+  background-image: url('http://placekitten.com/1600/500');
 }
 
-.App-logo {
+.app-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
 }
@@ -16,6 +16,21 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.title-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  color: #000000;
+}
+
+.header {
+  color: #000000;
 }
 
 .App-link {
