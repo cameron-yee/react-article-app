@@ -48,7 +48,7 @@ class Books extends Component {
       let abstract = book[2];
       let url = book[3];
       return (
-          <div className="column is-one-quarter">
+          <div key={book} className="column is-one-quarter">
             <div className="card">
               <div className="card-image">
                 <figure className="image">
